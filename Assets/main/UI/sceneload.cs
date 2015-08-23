@@ -35,5 +35,6 @@ public class sceneload : MonoBehaviour
     public void retryButton()
     {
         async.allowSceneActivation = true;
+        
     }
 }

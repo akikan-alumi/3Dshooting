@@ -30,7 +30,7 @@ public class playerLife : MonoBehaviour
         resultCanvas.enabled = false;
         playerCanvas.enabled = true;
         mPlay = player.GetComponent<mainPlayer>();
-
+        Time.timeScale = 1.0f;
     }
 
     void Update()
